@@ -37,9 +37,8 @@ const myChart = new Chart(ctx, {
 
 // Пример использования Anychart
 anychart.onDocumentLoad(function () {
-	// create an instance of a pie chart
-	var chart = anychart.pie();
-	// set the data
+	const chart = anychart.pie();
+
 	chart.data([
 		["JavaScript", 7],
 		["SCSS", 6],
@@ -47,11 +46,11 @@ anychart.onDocumentLoad(function () {
 		["JSON", 2],
 		["npm", 1]
 	]);
-	// set chart title
+
 	chart.title("Top 5 используемых технологий в обучении");
-	// set the container element 
+
 	chart.container("container");
-	// initiate chart display
+
 	chart.draw();
 });
 
