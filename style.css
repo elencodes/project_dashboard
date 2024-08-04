@@ -1,0 +1,22 @@
+.box {
+	width: 80vw;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+.box__item {
+	width: 80%;
+	margin-top: 2.5rem;
+}
+
+#container {
+	height: 50vh;
+}
+
+#container,
+#highchartsContainer {
+	width: 60rem;
+}
